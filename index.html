@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <img src="./images/desktop.jpg" alt="desktop" class="desktop" />
+      <div class="contents">
+        <div class="content about-me">
+          <img class="image" src="./images/readme.jpg" alt="aboutme" />
+          <p>About me.txt</p>
+        </div>
+        <div class="content projects">
+          <img class="image" src="./images/my-projects.png" alt="projects" />
+          <p>Projects</p>
+        </div>
+        <div class="content contact">
+          <img class="image" src="./images/contact.png" alt="contactme" />
+          <p>Contact</p>
+        </div>
+      </div>
+      <div class="modal modal-about-me hidden">
+        <div class="modal-ceiling">
+          <p>About me.txt</p>
+          <button class="close-modal">X</button>
+        </div>
+        <div class="text">
+          <h2>Hello, I'm Ilker!</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            architecto nihil quaerat odio voluptas consequuntur vitae inventore
+            cupiditate fuga aspernatur ea nisi dicta aperiam, sit, voluptatum
+            libero numquam. Ducimus, molestiae.
+          </p>
+        </div>
+      </div>
+      <div class="modal modal-projects hidden">
+        <div class="modal-ceiling">
+          <p>Projects</p>
+          <button class="close-modal">X</button>
+          <div class="projects-grid">
+            <div class="grids">Project 1</div>
+            <div class="grids">Project 2</div>
+            <div class="grids">Project 3</div>
+            <div class="grids">Project 4</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal modal-contact hidden">
+        <div class="modal-ceiling">
+          <p>Contact</p>
+          <button class="close-modal">X</button>
+        </div>
+        <div class="contact-text">
+          <p>I will turn back quick, I swear!</p>
+          <textarea></textarea>
+          <button>SEND</button>
+        </div>
+      </div>
+    </main>
+    <footer class="start-menu">
+      <div class="start">
+        <img
+          width="30"
+          height="30"
+          src="./images/startmenu.png"
+          alt="menu-icon"
+        />
+        <p class="start-text">Start</p>
+      </div>
+      <div class="start-bar"></div>
+    </footer>
+  </body>
+</html>
