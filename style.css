@@ -28,7 +28,7 @@ body {
   margin-top: 20%;
   color: white;
   font-weight: 700;
-  font-size: 2vw;
+  font-size: 2rem;
 }
 .content:hover {
   box-shadow: inset 0 0 0 1px black;
@@ -68,7 +68,7 @@ body {
 .start-text {
   text-align: center;
   margin-right: 20px;
-  font-size: 2vw;
+  font-size: 1.5rem;
   font-style: italic;
   font-weight: 700;
 }
@@ -163,4 +163,27 @@ textarea {
 }
 .hidden {
   display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    font-size: 1.5rem;
+  }
+  .start-text {
+    font-size: 1.2rem;
+  }
+  .text {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .content {
+    font-size: 1.3rem;
+  }
+  .start-text {
+    font-size: 1rem;
+  }
+  .text {
+    font-size: 1rem;
+  }
 }
