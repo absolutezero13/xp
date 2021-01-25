@@ -116,8 +116,15 @@ body {
   z-index: 1;
   background: linear-gradient(0deg, rgb(66, 103, 223), rgb(31, 60, 156));
 }
+.modal-ceiling > p {
+  margin-top: 12px;
+}
 .modal-about-me {
   font-family: "Source Code Pro", monospace;
+}
+.modal-projects {
+  width: 63vw;
+  height: 77vh;
 }
 .text {
   text-align: center;
@@ -127,9 +134,10 @@ body {
   font-size: 25px;
 }
 .projects-grid {
-  height: 50vh;
+  width: 60vw;
+  height: 60vh;
   text-align: center;
-  margin-top: 10%;
+  margin: 7% 3% 0 3%;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
